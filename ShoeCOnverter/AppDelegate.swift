@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ShoeCOnverter
+//  ShoeConverter
 //
 //  Created by Geoff Leavitt on 3/6/15.
 //  Copyright (c) 2015 Creative Design. All rights reserved.

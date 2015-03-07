@@ -59,7 +59,7 @@
 		6AC7DB301AAA7223002EC55C = {
 			isa = PBXGroup;
 			children = (
-				6AC7DB3B1AAA7223002EC55C /* ShoeCOnverter */,
+				6AC7DB3B1AAA7223002EC55C /* ShoeConverter */,
 				6AC7DB511AAA7223002EC55C /* ShoeCOnverterTests */,
 				6AC7DB3A1AAA7223002EC55C /* Products */,
 			);
@@ -74,7 +74,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6AC7DB3B1AAA7223002EC55C /* ShoeCOnverter */ = {
+		6AC7DB3B1AAA7223002EC55C /* ShoeConverter */ = {
 			isa = PBXGroup;
 			children = (
 				6AC7DB3E1AAA7223002EC55C /* AppDelegate.swift */,
@@ -84,6 +84,7 @@
 				6AC7DB471AAA7223002EC55C /* LaunchScreen.xib */,
 				6AC7DB3C1AAA7223002EC55C /* Supporting Files */,
 			);
+			name = ShoeConverter;
 			path = ShoeCOnverter;
 			sourceTree = "<group>";
 		};
@@ -115,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6AC7DB381AAA7223002EC55C /* ShoeCOnverter */ = {
+		6AC7DB381AAA7223002EC55C /* ShoeConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AC7DB581AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeCOnverter" */;
+			buildConfigurationList = 6AC7DB581AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeConverter" */;
 			buildPhases = (
 				6AC7DB351AAA7223002EC55C /* Sources */,
 				6AC7DB361AAA7223002EC55C /* Frameworks */,
@@ -127,14 +128,14 @@
 			);
 			dependencies = (
 			);
-			name = ShoeCOnverter;
+			name = ShoeConverter;
 			productName = ShoeCOnverter;
 			productReference = 6AC7DB391AAA7223002EC55C /* ShoeCOnverter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6AC7DB4D1AAA7223002EC55C /* ShoeCOnverterTests */ = {
+		6AC7DB4D1AAA7223002EC55C /* ShoeConverterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AC7DB5B1AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeCOnverterTests" */;
+			buildConfigurationList = 6AC7DB5B1AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeConverterTests" */;
 			buildPhases = (
 				6AC7DB4A1AAA7223002EC55C /* Sources */,
 				6AC7DB4B1AAA7223002EC55C /* Frameworks */,
@@ -145,7 +146,7 @@
 			dependencies = (
 				6AC7DB501AAA7223002EC55C /* PBXTargetDependency */,
 			);
-			name = ShoeCOnverterTests;
+			name = ShoeConverterTests;
 			productName = ShoeCOnverterTests;
 			productReference = 6AC7DB4E1AAA7223002EC55C /* ShoeCOnverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -161,6 +162,7 @@
 				TargetAttributes = {
 					6AC7DB381AAA7223002EC55C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2GJ79U88QA;
 					};
 					6AC7DB4D1AAA7223002EC55C = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -181,8 +183,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6AC7DB381AAA7223002EC55C /* ShoeCOnverter */,
-				6AC7DB4D1AAA7223002EC55C /* ShoeCOnverterTests */,
+				6AC7DB381AAA7223002EC55C /* ShoeConverter */,
+				6AC7DB4D1AAA7223002EC55C /* ShoeConverterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +232,7 @@
 /* Begin PBXTargetDependency section */
 		6AC7DB501AAA7223002EC55C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6AC7DB381AAA7223002EC55C /* ShoeCOnverter */;
+			target = 6AC7DB381AAA7223002EC55C /* ShoeConverter */;
 			targetProxy = 6AC7DB4F1AAA7223002EC55C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShoeCOnverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShoeCOnverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AC7DB581AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeCOnverter" */ = {
+		6AC7DB581AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AC7DB591AAA7223002EC55C /* Debug */,
@@ -408,7 +412,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		6AC7DB5B1AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeCOnverterTests" */ = {
+		6AC7DB5B1AAA7223002EC55C /* Build configuration list for PBXNativeTarget "ShoeConverterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AC7DB5C1AAA7223002EC55C /* Debug */,
